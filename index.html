@@ -23,7 +23,145 @@
         <div id="lcol">
             <div id="doc">
                 <h1>Calculadora para converter unidades de potência</h1>
-
+                <p>Entre a potência em uma das caixa de texto e aperte o botão <i>converter</i> :</p>
+                <form action="calcform" autocomplete="off">
+                    <table class="calc2">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="mW">milliwatts:</label>
+                                </td>
+                                <td>
+                                    <input type="text" min="0" step="any" id="mW" name="mW" autofocus tabindex="1">
+                                </td>
+                                <td class="mathsymbol">mW</td>
+                                <td>
+                                    <input onclick="Convert_mW()" type="button" value="converter" tabindex="2" class="btn">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="w">watts:</label>
+                                </td>
+                                <td>
+                                    <input type="text" min="0" step="any" id="W" name="W" autofocus tabindex="3">
+                                </td>
+                                <td class="mathsymbol">W</td>
+                                <td>
+                                    <input onclick="Convert_W()" type="button" value="converter" tabindex="4" class="btn">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="kW">killowatts:</label>
+                                </td>
+                                <td>
+                                    <input type="text" min="0" step="any" id="kW" name="kW" autofocus tabindex="5">
+                                </td>
+                                <td class="mathsymbol">kW</td>
+                                <td>
+                                    <input onclick="Convert_kW()" type="button" value="converter" tabindex="6" class="btn">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="MW">megawatts:</label>
+                                </td>
+                                <td>
+                                    <input type="text" min="0" step="any" id="MW" name="MW" autofocus tabindex="7">
+                                </td>
+                                <td class="mathsymbol">MW</td>
+                                <td>
+                                    <input onclick="Convert_MW()" type="button" value="converter" tabindex="8" class="btn">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="GW">gigawatts:</label>
+                                </td>
+                                <td>
+                                    <input type="text" min="0" step="any" id="GW" name="GW" autofocus tabindex="9">
+                                </td>
+                                <td class="mathsymbol">GW</td>
+                                <td>
+                                    <input onclick="Convert_GW()" type="button" value="converter" tabindex="10" class="btn">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="dBm">decibel-milliwatts:</label>
+                                </td>
+                                <td>
+                                    <input type="text" min="0" step="any" id="dBm" name="dBm" autofocus tabindex="11">
+                                </td>
+                                <td class="mathsymbol">dBm</td>
+                                <td>
+                                    <input onclick="Convert_dBm()" type="button" value="converter" tabindex="12" class="btn">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="dBW">decibel-watts:</label>
+                                </td>
+                                <td>
+                                    <input type="text" min="0" step="any" id="dBW" name="dBW" autofocus tabindex="13">
+                                </td>
+                                <td class="mathsymbol">dBW</td>
+                                <td>
+                                    <input onclick="Convert_dBW()" type="button" value="converter" tabindex="14" class="btn">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="hpm">horsepower (mecânico):</label>
+                                </td>
+                                <td>
+                                    <input type="text" min="0" step="any" id="hpm" name="hpm" autofocus tabindex="15">
+                                </td>
+                                <td class="mathsymbol">hp(I)</td>
+                                <td>
+                                    <input onclick="Convert_hpm()" type="button" value="converter" tabindex="16" class="btn">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="hpe">horsepower (elétrico):</label>
+                                </td>
+                                <td>
+                                    <input type="text" min="0" step="any" id="hpe" name="hpe" autofocus tabindex="17">
+                                </td>
+                                <td class="mathsymbol">hp(E)</td>
+                                <td>
+                                    <input onclick="Convert_hpe()" type="button" value="converter" tabindex="18" class="btn">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="btuhr">BTU/hr:</label>
+                                </td>
+                                <td>
+                                    <input type="text" min="0" step="any" id="btuhr" name="btuhr" autofocus tabindex="19">
+                                </td>
+                                <td class="mathsymbol">BTU
+                                    <sub>
+                                        <span style="font-size: 10px;">IT</span>
+                                    </sub>/hr
+                                </td>
+                                <td>
+                                    <input onclick="Convert_btuhr()" type="button" value="converter" tabindex="20" class="btn">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="reset" value="Limpar" class="btn">
+                                </td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
             </div>
         </div>
     </div>

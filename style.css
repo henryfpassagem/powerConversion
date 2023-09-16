@@ -38,6 +38,11 @@ html, body {
 #wrapper h1, h2, h3 {
     font-weight: 400;
 }
+#wrapper p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    line-height: 1.8;
+}
 
 #nav {
     color: #000;
@@ -57,4 +62,82 @@ html, body {
 h1 {
     font-size: 1.8em;
     margin-top: 0;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+#wrapper table {
+    margin-bottom: 5px;
+}
+
+.calc2 {
+    padding: 15px;
+    border-spacing: 0;
+    border-collapse: separate;
+    background: #e8e8e8;
+    border: 1px #ddd solid;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    border-spacing: 0;
+    border-collapse: separate;
+    background: #e8e8e8;
+    border: 1px #ddd solid;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+#wrapper td {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.calc2 tr {
+    line-height: 40px;
+}
+
+table.calc td, .calc2 td {
+    padding: 2px;
+    border-width: 0;
+    border-style: none;
+    background: #e8e8e8;
+}
+
+.calc2 input[type=text], .calc2 input[type=number], .calc2 input[type=url] {
+    width: 220px;
+    font-size: x-large;
+    padding-left: 3px;
+}
+
+.mathsymbol {
+    font-family: times new roman;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.btn {
+    font-size: 1.2em;
+    padding: 4px;
 }
