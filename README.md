@@ -1,2 +1,2 @@
 # powerConversion
-web page calculator to convert Watts to dBm or the opposite 
+Página web com calculador de converão de unidades de potência.
